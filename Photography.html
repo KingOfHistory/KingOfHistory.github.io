@@ -27,30 +27,46 @@
 			I. linkedin
 			II. email
 	--> 
-	<header>
-		<div class="namebox">
-			<p class="nameitem">Brendan Shih</p> 
-		</div>
-		<ul class="navbox">
-			<div class="navitem"><a href="Contact.html">Contact</a></div>
-			<div class="navitem"><a href="Blog.html">Blog</a></div>
-			<u class="navitem"><a href="Photography.html">Photography</a></u>
-			<div class="navitem"><a href="index.html">Home</a></div>
-		</ul>
-	</header>
-	<section>
-		<div class="imagebox">
-			<div class="imageitem"><img src="assets/img/redbus.jpg" class="image"></div>
-			<div class="imageitem"><img src="assets/img/bridgecar.jpg" class="image"></div>
-			<div class="imageitem"><img src="assets/img/reflection.jpg" class="image"></div>
-			<div class="imageitem"><img src="assets/img/firehydrant.jpg" class="image"></div>
-			<div class="imageitem"><img src="assets/img/sunnyroof.jpg" class="image"></div>
-			<div class="imageitem" id="lastimage">
-				<img src="assets/img/tunnel.jpg" class="image">
-				<img src="assets/img/colors.jpg" class="image" id="colorsimage">
+	<div id="marginer">
+		<header>
+			<div class="namebox">
+				<p class="nameitem">Brendan Shih</p> 
 			</div>
-		</div>
-		
-	</section>
+			<ul class="navbox">
+				<div class="navitem"><a href="Contact.html">Contact</a></div>
+				<div class="navitem"><a href="Blog.html">Blog</a></div>
+				<u class="navitem"><a href="Photography.html">Photography</a></u>
+				<div class="navitem"><a href="index.html">Home</a></div>
+			</ul>
+		</header>
+		<section>
+			<div class="lightbox">
+				<img src="assets/img/redbus.jpg" class="lightitem hidden" id="lightimage1">
+				<img src="assets/img/bridgecar.jpg" class="lightitem hidden" id="lightimage2">
+				<img src="assets/img/reflection.jpg" class="lightitem hidden" id="lightimage3">
+				<img src="assets/img/firehydrant.jpg" class="lightitem hidden" id="lightimage4">
+				<img src="assets/img/sunnyroof.jpg" class="lightitem hidden" id="lightimage5">
+				<img src="assets/img/tunnel.jpg" class="lightitem lightwideitem hidden" id="lightimage6">
+				<img src="assets/img/colors.jpg" class="lightitem lightwideitem hidden" id="lightimage7">
+			</div>
+
+			<div class="imagebox">
+				<div class="imageitem"><img src="assets/img/redbus.jpg" class="image" id="image1"></div>
+				<div class="imageitem"><img src="assets/img/bridgecar.jpg" class="image" id="image2"></div>
+				<div class="imageitem"><img src="assets/img/reflection.jpg" class="image" id="image3"></div>
+				<div class="imageitem"><img src="assets/img/firehydrant.jpg" class="image" id="image4"></div>
+				<div class="imageitem"><img src="assets/img/sunnyroof.jpg" class="image" id="image5"></div>
+				<div class="imageitem" id="lastimage">
+					<img src="assets/img/tunnel.jpg" class="image" id="image6">
+					<img src="assets/img/colors.jpg" class="image" id="image7">
+				</div>
+			</div>
+		</section>
+	</div>
+	<div id="lightbox-overlay" class="hidden"></div>
+	<script src="assets/script/script.js"></script>
 </body>
+
+
+
 </html>
